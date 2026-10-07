@@ -1,0 +1,12 @@
+import { IMG } from './images.js'
+export const stories = [
+  { id: 1, category: 'Education', title: 'From Classroom to Confidence', text: 'After joining a community learning centre, a group of first-generation students began reading fluently within a single school year.', more: 'Teachers noticed the change first. Children who once stayed quiet began raising their hands, reading aloud and helping younger students. Families say homework time is now something the whole house looks forward to.', image: IMG.classroom },
+  { id: 2, category: 'Healthcare', title: 'Healthy Starts, Brighter Futures', text: 'Regular health screenings helped local health workers identify and treat common illnesses early, keeping children in class.', more: 'Simple check-ups found issues such as anaemia and poor eyesight that were quietly affecting learning. With treatment and glasses, attendance went up and children could follow the blackboard again.', image: IMG.health },
+  { id: 3, category: 'Nutrition', title: 'Every Meal Matters', text: 'A school meal programme gave families one less worry and gave children the energy to focus and learn.', more: 'A hot meal at school means children arrive on time and stay for the full day. Parents tell us it also lets them work without worrying whether their child has eaten.', image: IMG.children },
+]
+
+export const storyDetails = {
+  1: { body: ['Many of the students at the learning centre are the first in their families to attend school. When they joined, several struggled to read even simple sentences.', 'With learning materials, small-group tutoring and patient teachers, they gained confidence step by step. Within a school year, most were reading fluently and speaking up in class.'], note: 'Sample story for this prototype.' },
+  2: { body: ['Local health workers began visiting schools and villages for regular screenings, checking for common illnesses and nutrition problems.', 'Problems were caught early and treated quickly. Children missed fewer school days, and parents learned simple steps to keep their families healthy.'], note: 'Sample story for this prototype.' },
+  3: { body: ['In a community where many families skip meals, the school meal programme gave children a reliable, balanced lunch every day.', 'Teachers noticed better attendance and more energy in class. For parents, it meant one less worry and a little more security.'], note: 'Sample story for this prototype.' },
+}
